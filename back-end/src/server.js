@@ -2,7 +2,6 @@ import express from 'express';
 import { MongoClient } from 'mongodb';
 import path from 'path';
 
-const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
 async function start() {
   const url = `mongodb+srv://Jay:Jay@cluster0.vstmn3b.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0`
